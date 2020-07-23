@@ -3,19 +3,19 @@
     <nav>
       <ul id="lista">
         <li>
-          <a href="#" v-on:click="mostrarAtivo(this)">HOME</a>
+          <a href="#">HOME</a>
         </li>
         <li>
-          <a href="#back2" v-on:click="mostrarAtivo(this)">SOBRE</a>
+          <a href="#back2" >SOBRE</a>
         </li>
         <li>
-          <a href="#back3" v-on:click="mostrarAtivo(this)">DEPOIMENTOS</a>
+          <a href="#back3" >DEPOIMENTOS</a>
         </li>
         <li>
-          <a href="#back4" v-on:click="mostrarAtivo(this)">RESULTADOS</a>
+          <a href="#back4" >RESULTADOS</a>
         </li>
         <li>
-          <a href="#back5" v-on:click="mostrarAtivo(this)">CONTATO</a>
+          <a href="#back5" >CONTATO</a>
         </li>
       </ul>
       <div class="logo">
@@ -29,8 +29,12 @@
   </div>
 </template>
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="../../main.js"></script>
+<script>
+export default {
+  
+  }
+
+</script>
 
 <style>
 .fixo {
